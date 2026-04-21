@@ -1,0 +1,37 @@
+# CMake / build outputs
+build/
+out/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+Makefile
+CTestTestfile.cmake
+install_manifest.txt
+
+# Windows build artifacts
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.dir/
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.dll
+*.exe
+
+# Linux build artifacts
+*.so
+*.a
+*.o
+core
+core.*
+vgcore.*
+
+# Runtime / debug outputs
+*.log
+*.tmp
