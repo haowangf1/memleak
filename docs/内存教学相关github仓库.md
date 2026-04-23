@@ -1,0 +1,13 @@
+  - google/sanitizers
+      - 学 ASan / LSan / MSan / TSan 的入口，虽然仓库已归档，但文档价值很高
+      - 仓库：https://github.com/google/sanitizers
+      - ASan wiki：https://github.com/google/sanitizers/wiki/addresssanitizer
+  - D0D0123/MemoryGuideC
+      - 偏入门，讲 C 里的内存管理、常见错误、Valgrind
+      - 仓库：https://github.com/D0D0123/MemoryGuideC
+  - seladb/MemPlumber
+      - 偏 C++ 内存泄漏检测库，适合理解“程序内埋点追踪分配”的思路
+      - 仓库：https://github.com/seladb/MemPlumber
+  - GrapheneOS/hardened_malloc
+      - 偏进阶，适合理解 allocator 设计、堆安全和内存错误防护
+      - 仓库：https://github.com/GrapheneOS/hardened_malloc
